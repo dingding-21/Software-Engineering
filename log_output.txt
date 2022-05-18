@@ -1,0 +1,20 @@
+[chyerin802] Mon May 2 12:29:29 2022 +0900 Merge branch 'yerin' 803327c
+[chyerin802] Mon May 2 12:20:51 2022 +0900 ADD : last version of 과제1 76abe9c
+[chyerin802] Mon May 2 09:57:44 2022 +0900 Merge branch 'yerin' ce0f0fc
+[chyerin802] Mon May 2 09:55:46 2022 +0900 [ADD] yerin's UI screen design & Use case description 193663a
+[chyerin802] Mon May 2 09:35:55 2022 +0900 Revert "모든 파일 조금씩 수정" ba52182
+[hyeonz] Sun May 1 22:51:11 2022 +0900 Merge pull request #5 from dingding-21/hyeonji 6fe08dc
+[dingding-21] Sun May 1 22:48:54 2022 +0900 [ADD] UI screen design & Use case description f58db30
+[chyerin802] Sun May 1 03:20:19 2022 +0900 모든 파일 조금씩 수정 5ba412c
+[hyeonz] Sat Apr 30 03:02:24 2022 +0900 Merge pull request #3 from dingding-21/hyeonji 71c2d35
+[dingding-21] Sat Apr 30 02:59:05 2022 +0900 [ADD] Usecase diagram 8a2976f
+[dingding-21] Sat Apr 30 02:11:58 2022 +0900 [RENAME] Version1 to version1 07414f6
+[dingding-21] Sat Apr 30 02:06:58 2022 +0900 [FEAT] Action Description & Requirement List version3 b7ad751
+[dingding-21] Sat Apr 30 02:03:42 2022 +0900 Merge branch 'main' into hyeonji 589e8f9
+[chyerin802] Fri Apr 29 20:27:20 2022 +0900 [ADD] Actor&Requriement version2 / add usecase diagram fd86635
+[hyeonz] Fri Apr 29 07:41:26 2022 +0900 Merge pull request #2 from dingding-21/hyeonji 8b432bc
+[dingding-21] Fri Apr 29 07:40:14 2022 +0900 [MOVE] Version1 Foldering 813cc62
+[hyeonz] Fri Apr 29 07:38:40 2022 +0900 Merge pull request #1 from dingding-21/hyeonji bdd91fa
+[dingding-21] Fri Apr 29 07:12:09 2022 +0900 [ADD] Usecase Diagram Version 1 99b5ebd
+[dingding-21] Fri Apr 29 07:06:36 2022 +0900 [FEAT] Action Description & Requirement List Version 1 1b709ef
+[dingding-21] Fri Apr 29 06:51:34 2022 +0900 [ADD] Initial commit 1835ed4
