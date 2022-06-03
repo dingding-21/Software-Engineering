@@ -7,6 +7,10 @@
 #include "Login.h"
 #include "Logout.h"
 #include "AddProduct.h"
+
+#include "SearchProduct.h"
+//#include "PurchaseProduct.h"
+
 #include "Member.h"
 #include "Product.h"
 
@@ -27,12 +31,23 @@ void login();
 void logout();
 void addProduct();
 
+void searchProduct();
+//void purchaseProduct();
+//void inquireProduct();
+//void evaluateProduct();
+
 // List
 Member* memberArry[MAX_MEMBER_NUM] = { NULL };
-Product* productArry[MAX_PRPDUCT_NUM] = { NULL };
+Product* productArray[MAX_PRODUCT_NUM] = { NULL };
+//Member* productPurchaseArray[MAX_PRODUCT_NUM] = { NULL };
 
 // Current Mem
 Member* loggedInMem = NULL;
+
+// Current Product Number
+int currentProductNum = 0;
+
+string productName = "";
 
 // Control
 SignUp* signUpControl;
@@ -40,6 +55,11 @@ DeleteAccount* deleteAccountControl;
 Login* loginControl;
 Logout* logoutControl;
 AddProduct* addProductControl;
+SearchProduct* searchProductControl;
+//PurchaseProduct* purchaseProductControl;
+//InquirePurchaseHistory* inquirePurchaseHistoryCon/trol;
+//EvaluatePurchaseSatisfaction* evaluatePurchaseSatisfactionControl;
+
 
 int main()
 {
@@ -114,19 +134,19 @@ void doTask()
         else if (menu_level_1 == 4) {
             if (menu_level_2 == 1)
             {
-                cout << "상품 검색" << endl;
+                searchProduct();
             }
             else if (menu_level_2 == 2)
             {
-                cout << "상품 구매" << endl;
+                //purchaseProduct();
             }
             else if (menu_level_2 == 3)
             {
-                cout << "상품 구매 내역 조회" << endl;
+                //inquirePurchaseHistory();
             }
             else if (menu_level_2 == 4)
             {
-                cout << "상품 구매만족도 평가" << endl;
+                //evaluatePurchaseSatisfaction();
             }
         }
 
@@ -146,7 +166,7 @@ void doTask()
 void signUp()
 {
     signUpControl = new SignUp();
-    
+
     SignUpUI signUpUI;
     signUpUI.enterUserInfo();
 
@@ -155,7 +175,7 @@ void signUp()
 void deleteAccount()
 {
     deleteAccountControl = new DeleteAccount();
-    
+
     DeleteAccountUI deleteAccountUI;
     deleteAccountUI.clickDeleteAccount();
 }
@@ -183,3 +203,31 @@ void addProduct()
     AddProductUI addProductUI;
     addProductUI.enterProductInfo();
 }
+
+void searchProduct() {
+    searchProductControl = new SearchProduct();
+
+    SearchProductUI searchProductUI;
+    searchProductUI.enterProductName();
+}
+
+//void purchaseProduct() 
+//{
+//    purchaseProductControl = new PurchaseProduct();
+//
+//    PurchaseProductUI purchaseProductUI;
+//    purchaseProductUI.confirmPurchase();
+//}
+//
+//void inquirePurchaseHistory() 
+//{
+//    inquirePurchaseHistory = new inquirePurchaseHistory();
+//
+//    InquirePurchaseHistoryUI inquirePurchaseHistoryUI;
+//    inquirePurchaseHistoryUI. 
+//}
+//
+//void evaluatePurchaseSatisfaction() 
+//{
+//
+//}

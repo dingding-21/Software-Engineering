@@ -11,5 +11,4 @@ string DeleteAccount::deleteAccount()
 	else {
 		return loggedInMem->deleteMember();
 	}
-
 }

@@ -37,7 +37,7 @@ string Member::deleteMember()
 }
 
 /*Login*/
-bool Member::checkIdPw() 
+bool Member::checkIdPw()
 {
 	for (int i = 0; i < MAX_MEMBER_NUM; i++) {
 		if (!memberArry[i] == NULL) {
@@ -56,3 +56,15 @@ string Member::getId()
 {
 	return this->memId;
 }
+
+//void Member::addNewProductPurchase() {
+//	for (int i = 0; i < MAX_MEMBER_NUM; i++) {
+//		if (!memberArry[i] == NULL) {
+//			if (this->memId == memberArry[i]->memId && this->memPassword == memberArry[i]->memPassword) {
+//				loggedInMem = memberArry[i];
+//				loggedInMem->arryNum = i;
+//				return true;
+//			}
+//		}
+//	}
+//}

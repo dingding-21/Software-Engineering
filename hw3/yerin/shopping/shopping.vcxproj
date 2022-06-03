@@ -138,6 +138,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Member.cpp" />
     <ClCompile Include="Product.cpp" />
+    <ClCompile Include="SearchProduct.cpp" />
+    <ClCompile Include="SearchProductUI.cpp" />
     <ClCompile Include="SignUp.cpp" />
     <ClCompile Include="SignUpUI.cpp" />
   </ItemGroup>
@@ -153,8 +155,13 @@
     <ClInclude Include="LogoutUI.h" />
     <ClInclude Include="Member.h" />
     <ClInclude Include="Product.h" />
+    <ClInclude Include="SearchProduct.h" />
+    <ClInclude Include="SearchProductUI.h" />
     <ClInclude Include="SignUp.h" />
     <ClInclude Include="SignUpUI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
