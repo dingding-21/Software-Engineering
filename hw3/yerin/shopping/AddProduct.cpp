@@ -3,11 +3,12 @@
 #include "Member.h"
 
 extern Member* loggedInMem;
+extern int currentProductNum;
 
-bool AddProduct::addNewProduct(string name, string company, int price, int quantity) {
+bool AddProduct::addNewProduct(string sellerId, string name, string company, int price, int quantity, double averagePurchaseSatisfaction) {
 	if (loggedInMem == NULL) return false;
 
-	Product* newProduct = new Product(name, company, price, quantity);
+	Product* newProduct = new Product(sellerId, name, company, price, quantity, averagePurchaseSatisfaction);
 	bool pNameCheck = false;
 
 	pNameCheck = newProduct->productNameCheck();
@@ -15,6 +16,7 @@ bool AddProduct::addNewProduct(string name, string company, int price, int quant
 
 	if (pNameCheck == true) {
 		newProduct->createNewProduct();
+		currentProductNum++;
 		return true;
 	}
 	else {

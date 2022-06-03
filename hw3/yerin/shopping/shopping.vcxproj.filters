@@ -54,6 +54,12 @@
     <ClCompile Include="Product.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SearchProductUI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchProduct.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SignUpUI.h">
@@ -95,5 +101,16 @@
     <ClInclude Include="Product.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="SearchProductUI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchProduct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>

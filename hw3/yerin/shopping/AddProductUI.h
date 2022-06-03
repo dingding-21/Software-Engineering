@@ -1,7 +1,7 @@
 #pragma once
 #include "common.h"
 
-class AddProductUI{
+class AddProductUI {
 private:
 public:
     void startInterface();
