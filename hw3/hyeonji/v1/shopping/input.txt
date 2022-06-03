@@ -1,0 +1,6 @@
+1 1 aaa bbb ccc ddd
+1 2
+2 1 abc def
+2 2
+3 1 hat chulsoo 2000 1
+6 1
